@@ -18,4 +18,15 @@ public class Persona {
 
     public Persona() {
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", dni='" + dni + '\'' +
+                ", email='" + email + '\'' +
+                ", ciudadCP='" + ciudadCP + '\'' +
+                '}';
+    }
 }
